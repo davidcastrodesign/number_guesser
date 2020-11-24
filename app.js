@@ -36,6 +36,7 @@ guessBtn.addEventListener('click', function () {
 
   // Check if won
   if (guess === winningNum) {
+    // Game over - won
     // Diable input
     guessInput.disabled = true;
     // Change border color
@@ -43,6 +44,24 @@ guessBtn.addEventListener('click', function () {
     // Set winning message
     setMessage(`${winningNum} is correct, YOU WIN!`, 'green');
   } else {
+    // Wrong number
+    guessesLeft -= 1;
+
+    if (guessesLeft === 0) {
+      // Game over - lost
+
+      // Diable input
+      guessInput.disabled = true;
+      // Change border color
+      guessInput.style.borderColor = 'red';
+      // Set winning message
+      setMessage(
+        `Game Over, you lost. The correct number was ${winningNum}`,
+        'red'
+      );
+    } else {
+      // Game continues - answer wrong
+    }
   }
 });
 
