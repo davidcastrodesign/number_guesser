@@ -44,15 +44,9 @@ guessBtn.addEventListener('click', function () {
 
     if (guessesLeft === 0) {
       // Game over - lost
-
-      // Diable input
-      guessInput.disabled = true;
-      // Change border color
-      guessInput.style.borderColor = 'red';
-      // Set winning message
-      setMessage(
-        `Game Over, you lost. The correct number was ${winningNum}`,
-        'red'
+      gameOver(
+        false,
+        `Game Over, you lost. The correct number was ${winningNum}`
       );
     } else {
       // Game continues - answer wrong
@@ -78,7 +72,9 @@ function gameOver(won, msg) {
   guessInput.disabled = true;
   // Change border color
   guessInput.style.borderColor = color;
-  // Set winning message
+  // Set text color
+  message.style.color = color;
+  // Set message
   setMessage(msg);
 }
 
