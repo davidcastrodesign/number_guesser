@@ -1,6 +1,6 @@
 /*
 GAME FUNCTION:
-- Player must guess a number between a min and max
+- Player must guess a number between a min & max
 - Player gets a certain amount of guesses
 - Notify player of guesses remaining
 - Notify the player of the correct answer if loose
@@ -21,11 +21,21 @@ const game = document.querySelector('#game'),
   guessInput = document.querySelector('#guess-input'),
   message = document.querySelector('.message');
 
-// Assign UI min and max
+// Assign UI min & max
 minNum.textContent = min;
 maxNum.textContent = max;
 
-// listen for guess
+// Listen for guess
 guessBtn.addEventListener('click', function () {
   let guess = parseInt(guessInput.value);
+
+  // Validate
+  if (isNaN(guess) || guess < min || guess > max) {
+    setMessage(`Please enter a number between ${min} and ${max}`);
+  }
 });
+
+// Set Message
+function setMessage(msg) {
+  message.textContent = msg;
+}
