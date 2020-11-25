@@ -3,9 +3,9 @@
 #About
 
 A number guessing game.
-The app uses Skeleton framework in HTML for UI and Javascript for DOM Manipulation, UI variables and functions to make the workable.
+The app uses Skeleton framework in HTML for UI and Javascript for DOM Manipulation, UI variables and functions to make it the functional.
 
-The UI accepts a number from 1-10 and gives the user 3 guesses to guess the correct number. Afterwards, the app will ask the user to play again and give the user the correct in red. Similar result happens in if user guess the correct answer of play again, except in green and win message.
+The UI accepts a number from 1-10 and gives the user 3 guesses to guess the correct number. Afterwards, the app will ask the user to play again and give the user the correct answer in red. Similar result happens if the user guesses the correct answer of play again, except in green and with a win message.
 
 ## Click [here](https://davidcastrodesign.github.io/number_guesser/) for the live app.
 
