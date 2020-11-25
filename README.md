@@ -7,3 +7,5 @@ The app uses Skeleton framework in HTML for UI and Javascript for DOM Manipulati
 To preview app please follow link below:
 
 https://davidcastrodesign.github.io/number_guesser/
+
+<img src"img/number_guesser1.png">
