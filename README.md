@@ -2,6 +2,8 @@
 
 # About
 
+Number Guesser
+
 A number guessing game.
 The app uses Skeleton framework in HTML for UI and Javascript for DOM Manipulation, UI variables and functions to make it functional.
 
