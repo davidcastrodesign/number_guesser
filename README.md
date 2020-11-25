@@ -9,7 +9,7 @@ The UI accepts a number from 1-10 and gives the user 3 guesses to guess the corr
 
 ## Click [here](https://davidcastrodesign.github.io/number_guesser/) for the live app.
 
-# App interaction Screenshots
+# App Interaction Screenshots
 
 ## HomePage
 
