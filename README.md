@@ -8,4 +8,4 @@ To preview app please follow link below:
 
 https://davidcastrodesign.github.io/number_guesser/
 
-<img src"img/number_guesser1.png">
+![Opening Shot](img/number_guesser1.png)
