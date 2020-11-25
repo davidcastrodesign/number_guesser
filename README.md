@@ -8,4 +8,8 @@ To preview app please follow link below:
 
 https://davidcastrodesign.github.io/number_guesser/
 
-![Opening Shot](img/number_guesser1.png?raw=true)
+![Opening Shot](img/number_guesser1.png?raw=true 'Opening Shot')
+![Guess 1](img/number_guesser1.png?raw=true 'Guess 1')
+![Guess 2](img/number_guesser1.png?raw=true 'Guess 2')
+![Guess 3](img/number_guesser1.png?raw=true 'Guess 3')
+![Correct Answer](img/number_guesser1.png?raw=true 'Correct Answer')
